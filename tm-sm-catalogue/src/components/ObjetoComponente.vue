@@ -1,6 +1,6 @@
 <template>
   <article class="objeto">
-    <img :src="objeto.imagen" alt="objeto.descripcion">
+    <img :src="objeto.imagen" :alt="objeto.descripcion" class="imagen-producto">
     <h3>{{ objeto.nombre }}</h3>
     <p>Categoría: {{ objeto.categoria }}</p>
     <p>Precio: {{ objeto.precio }}</p>
@@ -10,12 +10,17 @@
 
 <script>
   export default {
-    props: [objeto]
+    props: ['objeto']
   }
 </script>
 
 <style scoped>
   .objeto {
     margin-bottom: 20px;
+  }
+
+  .imagen-producto {
+    max-width: 200px;
+    height: auto;
   }
 </style>
