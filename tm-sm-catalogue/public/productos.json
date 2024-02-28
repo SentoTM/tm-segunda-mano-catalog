@@ -1,0 +1,23 @@
+[
+  {
+    "nombre":"",
+    "categoria":"",
+    "precio": 0,
+    "imagen":"../src/assets/producto1",
+    "descripcion":"texto descriptivo."
+  },
+  {
+    "nombre":"",
+    "categoria":"",
+    "precio": 0,
+    "imagen":"../src/assets/producto1.jpg",
+    "descripcion":"texto descriptivo."
+  },
+  {
+    "nombre":"",
+    "categoria":"",
+    "precio": 0,
+    "imagen":"../src/assets/producto1",
+    "descripcion":"texto descriptivo."
+  }
+]
